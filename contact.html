@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — Mpho Sithole</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="logo">mpho<span>.dev</span></a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="contact.html" class="active">Contact</a></li>
+    </ul>
+    <a href="contact.html" class="nav-cta">Hire me</a>
+    <button class="nav-toggle" aria-label="Toggle menu">☰</button>
+  </div>
+</nav>
+
+<header class="page-intro">
+  <div class="container">
+    <span class="eyebrow"><span class="dot"></span> Let's connect</span>
+    <h1>Let's build <span class="grad">something good</span>.</h1>
+    <p>Open to junior developer roles, internships and freelance projects. Tell me a bit about what you need — I usually reply within a day.</p>
+  </div>
+</header>
+
+<section class="section" style="padding-top:24px;">
+  <div class="container">
+    <div class="contact-grid">
+
+      <form id="contact-form" class="reveal">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Your name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="you@example.com" required>
+        </div>
+        <div class="form-group">
+          <label for="subject">Subject</label>
+          <input type="text" id="subject" name="subject" placeholder="What's this about?" required>
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" placeholder="Tell me about your project or opportunity..." required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary" style="border:none; cursor:pointer; width:100%; justify-content:center;">Send message</button>
+      </form>
+
+      <div class="reveal">
+        <div class="contact-card" style="margin-bottom:24px;">
+          <div class="contact-row">
+            <div class="icon-sm">📍</div>
+            <div>
+              <strong>Location</strong>
+              <span>Mokopane, Limpopo, South Africa</span>
+            </div>
+          </div>
+          <div class="contact-row">
+            <div class="icon-sm">💼</div>
+            <div>
+              <strong>Open to</strong>
+              <span>Junior dev roles · Freelance · Internships</span>
+            </div>
+          </div>
+          <div class="contact-row">
+            <div class="icon-sm">⚡</div>
+            <div>
+              <strong>Response time</strong>
+              <span>Usually within 24 hours</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="buildlog">
+          <div class="buildlog-bar">
+            <span></span><span></span><span></span>
+            <span class="buildlog-title">availability.status</span>
+          </div>
+          <div class="buildlog-body">
+            <div class="log-row"><span class="log-skill">Freelance projects</span><span class="log-status">available</span></div>
+            <div class="log-row"><span class="log-skill">Junior dev roles</span><span class="log-status">available</span></div>
+            <div class="log-row"><span class="log-skill">WordPress / web design</span><span class="log-status">available</span></div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">© 2026 Mpho Sithole. Built from Limpopo, South Africa.</div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
