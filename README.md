@@ -13,6 +13,8 @@ boilerplate — while focusing my own learning time on the logic,
 architecture, and features layered on top. Happy to walk through any part 
 of the code or the decisions behind it.
 
-Stack: HTML/CSS/vanilla JS, multiple-files static site
-Status: actively maintained 
+Stack: HTML/CSS/vanilla JS, multiple-files static site.
+
+Status: actively maintained.
+
 What I built/changed myself: Changed generic details with my actual details including projects and their links, I added my resume allowing visitors to download it for job purposes. 
