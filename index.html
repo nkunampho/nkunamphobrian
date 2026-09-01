@@ -1,179 +1,1075 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Nkuna Mpho Brian — Software Engineer</title>
-<meta name="description" content="Nkuna Mpho Brian — Junior Software Engineer & IT Automation Tech building web apps, automation tools and database-driven systems from Limpopo, South Africa.">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="Brian Nkuna — Technology, Design & Digital Solutions. Software development, web development, UI/UX and graphic design.">
+
+    <meta name="author" content="Brian Nkuna">
+
+    <title>Brian Nkuna — Technology, Design & Digital Solutions</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap"
+          rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-<nav class="nav">
-  <div class="nav-inner">
-    <a href="index.html" class="logo">mpho<span>.dev</span></a>
-    <ul class="nav-links">
-      <li><a href="index.html" class="active">Home</a></li>
-      <li><a href="about.html">About</a></li>
-      <li><a href="projects.html">Projects</a></li>
-      <li><a href="contact.html">Contact</a></li>
-    </ul>
-    <a href="assets/Nkuna_Mpho_Brian_Resume.pdf" class="nav-cta" download>Résumé ↓</a>
-    <button class="nav-toggle" aria-label="Toggle menu">☰</button>
-  </div>
-</nav>
+<!-- ================= NAVIGATION ================= -->
 
-<header class="hero">
-  <div class="container">
-    <div class="eyebrow"><span class="dot"></span> Open to junior dev roles & freelance work</div>
-    <h1>Building software that <span class="grad">solves real problems</span>, end to end.</h1>
-    <p class="lead">I'm Mpho — a BCom Computer Science & Information Systems student at Nelson Mandela University and a self-taught software developer based in Mokopane, Limpopo. I design, build, and ship full-stack web apps, automate IT workflows, and write clean, maintainable code.</p>
-    <div class="hero-actions">
-      <a href="projects.html" class="btn btn-primary">View my work →</a>
-      <a href="contact.html" class="btn btn-secondary">Start a project</a>
-      <a href="Nkuna_Mpho_Brian_Resume.pdf" class="btn btn-secondary" download>Download résumé ↓</a>
-    </div>
+<header class="navbar">
 
-    <div class="buildlog reveal">
-      <div class="buildlog-bar">
-        <span></span><span></span><span></span>
-        <span class="buildlog-title">skills.build — running</span>
-      </div>
-      <div class="buildlog-body">
-        <div class="log-row"><span class="log-skill">C# & .NET (ASP.NET MVC)</span><span class="log-status">compiled</span></div>
-        <div class="log-row"><span class="log-skill">Java</span><span class="log-status">compiled</span></div>
-        <div class="log-row"><span class="log-skill">HTML, CSS & JavaScript</span><span class="log-status">compiled</span></div>
-        <div class="log-row"><span class="log-skill">SQL & Database Management</span><span class="log-status">compiled</span></div>
-        <div class="log-row"><span class="log-skill">WordPress Web Design</span><span class="log-status">compiled</span></div>
-        <div class="log-row"><span class="log-skill">Software Development Lifecycle</span><span class="log-status">compiled</span></div>
-      </div>
-    </div>
-  </div>
+    <a href="#home" class="logo">
+        BN<span>.</span>
+    </a>
+
+    <nav class="desktop-nav">
+        <a href="#work">Work</a>
+        <a href="#services">Services</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <a href="#contact" class="nav-button">
+        Let's work together ↗
+    </a>
+
+    <button class="mobile-menu-button" id="menuButton">
+        ☰
+    </button>
+
 </header>
 
-<section class="section">
-  <div class="container">
-    <div class="section-head reveal">
-      <span class="section-eyebrow">// core stack</span>
-      <h2>What I build with</h2>
-    </div>
-    <div class="skill-grid">
-      <div class="skill-card reveal">
-        <div class="icon" style="background:rgba(255,93,93,0.15); color:var(--coral);">C#</div>
-        <h3>C# & ASP.NET MVC</h3>
-        <p>Building structured, scalable web applications with the MVC pattern and the .NET ecosystem.</p>
-      </div>
-      <div class="skill-card reveal">
-        <div class="icon" style="background:rgba(255,200,87,0.15); color:var(--amber);">Jv</div>
-        <h3>Java</h3>
-        <p>Object-oriented application development and core programming fundamentals.</p>
-      </div>
-      <div class="skill-card reveal">
-        <div class="icon" style="background:rgba(140,107,255,0.15); color:var(--violet);">&lt;/&gt;</div>
-        <h3>HTML, CSS & JavaScript</h3>
-        <p>Responsive, accessible front-end interfaces built from scratch — no shortcuts.</p>
-      </div>
-      <div class="skill-card reveal">
-        <div class="icon" style="background:rgba(92,214,143,0.15); color:#5cd68f;">DB</div>
-        <h3>SQL & DBMS</h3>
-        <p>Designing relational schemas, writing queries, and managing data integrity.</p>
-      </div>
-      <div class="skill-card reveal">
-        <div class="icon" style="background:rgba(255,93,93,0.15); color:var(--coral);">WP</div>
-        <h3>WordPress Design</h3>
-        <p>Custom WordPress builds for small businesses — fast, clean, client-ready sites.</p>
-      </div>
-      <div class="skill-card reveal">
-        <div class="icon" style="background:rgba(255,200,87,0.15); color:var(--amber);">SDLC</div>
-        <h3>Software Dev Lifecycle</h3>
-        <p>Planning, building, testing and deploying software the right way, every time.</p>
-      </div>
-      <div class="skill-card reveal">
-        <div class="icon" style="background:rgba(140,107,255,0.15); color:var(--violet);">365</div>
-        <h3>Microsoft Office 365</h3>
-        <p>Power tools for documentation, reporting, and business workflow support.</p>
-      </div>
-      <div class="skill-card reveal">
-        <div class="icon" style="background:rgba(92,214,143,0.15); color:#5cd68f;">GD</div>
-        <h3>Graphic Design</h3>
-        <p>Visual design sense that carries into clean UI and brand-ready front ends.</p>
-      </div>
+
+<!-- ================= MOBILE MENU ================= -->
+
+<div class="mobile-menu" id="mobileMenu">
+
+    <a href="#work">Work</a>
+    <a href="#services">Services</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+
+</div>
+
+
+<main>
+
+<!-- ================= HERO ================= -->
+
+<section class="hero" id="home">
+
+    <div class="hero-background"></div>
+
+    <div class="hero-content">
+
+        <p class="eyebrow">
+            IT PROFESSIONAL · DEVELOPER · DESIGNER
+        </p>
+
+        <h1>
+            Technology.
+            <span>Design.</span>
+            Digital solutions.
+        </h1>
+
+        <p class="hero-description">
+            I build digital products, websites, software and visual
+            experiences that turn ideas into practical solutions.
+        </p>
+
+        <div class="hero-buttons">
+
+            <a href="#work" class="button button-dark">
+                Explore my work
+            </a>
+
+            <a href="#contact" class="button button-outline">
+                Let's work together ↗
+            </a>
+
+        </div>
+
+        <div class="hero-meta">
+
+            <span>Based in South Africa</span>
+
+            <span>
+                Available for professional opportunities & projects
+            </span>
+
+        </div>
+
     </div>
 
-    <div class="stats reveal">
-      <div>
-        <div class="stat-num grad">8+</div>
-        <div class="stat-label">Core technical skills</div>
-      </div>
-      <div>
-        <div class="stat-num grad">100%</div>
-        <div class="stat-label">Self-taught & driven</div>
-      </div>
-      <div>
-        <div class="stat-num grad">SA</div>
-        <div class="stat-label">Limpopo-based, remote-ready</div>
-      </div>
-    </div>
-  </div>
 </section>
 
-<section class="section" style="padding-top:0;">
-  <div class="container">
-    <div class="section-head reveal">
-      <span class="section-eyebrow">// selected work</span>
-      <h2>Featured projects</h2>
+
+<!-- ================= CAPABILITIES ================= -->
+
+<section class="ticker">
+
+    <div>
+        SOFTWARE DEVELOPMENT
+        <span>✦</span>
     </div>
-    <div class="project-grid">
-      <div class="project-card reveal">
-        <div class="project-thumb" style="background:linear-gradient(135deg,var(--coral),var(--violet));">OH-SA</div>
-        <div class="project-body">
-          <div class="project-tags"><span class="tag">Next.js</span><span class="tag">PostgreSQL</span><span class="tag">SQL</span></div>
-          <h3>Opportunity Hub South Africa</h3>
-          <p>A platform aggregating SA jobs, internships, learnerships and bursaries in one place.</p>
-          <div class="project-status"><span class="status-dot" style="background:var(--amber);"></span> In development</div>
-        </div>
-      </div>
-      <div class="project-card reveal">
-        <div class="project-thumb" style="background:linear-gradient(135deg,var(--amber),#5cd68f);">TWZA</div>
-        <div class="project-body">
-          <div class="project-tags"><span class="tag">JavaScript</span><span class="tag">HTML/CSS</span></div>
-          <h3>TaxWise ZA</h3>
-          <p>A client-side SARS tax calculator handling PAYE, UIF and medical aid credit logic.</p>
-          <div class="project-status"><span class="status-dot" style="background:#5cd68f;"></span> Live</div>
-        </div>
-      </div>
-      <div class="project-card reveal">
-        <div class="project-thumb" style="background:linear-gradient(135deg,var(--violet),var(--coral));">MFS</div>
-        <div class="project-body">
-          <div class="project-tags"><span class="tag">WordPress</span><span class="tag">HTML/CSS</span></div>
-          <h3>Maboloka Funeral Services</h3>
-          <p>A respectful, fast-loading business website built for a local service provider.</p>
-          <div class="project-status"><span class="status-dot" style="background:#5cd68f;"></span> Live</div>
-        </div>
-      </div>
+
+    <div>
+        WEB DEVELOPMENT
+        <span>✦</span>
     </div>
-    <div style="text-align:center; margin-top:40px;">
-      <a href="projects.html" class="btn btn-secondary">See all projects →</a>
+
+    <div>
+        UI/UX DESIGN
+        <span>✦</span>
     </div>
-  </div>
+
+    <div>
+        GRAPHIC DESIGN
+        <span>✦</span>
+    </div>
+
+    <div>
+        DIGITAL SOLUTIONS
+    </div>
+
 </section>
 
-<section class="section" style="padding-top:0;">
-  <div class="container">
-    <div class="contact-card reveal" style="text-align:center; padding:56px 32px;">
-      <h2 style="margin-bottom:16px;">Got a project in mind?</h2>
-      <p style="color:var(--muted); max-width:480px; margin:0 auto 28px;">Whether it's a full web app or a small business site, I'd love to hear about it.</p>
-      <a href="contact.html" class="btn btn-primary">Let's talk →</a>
+
+<!-- ================= WORK ================= -->
+
+<section class="section work-section" id="work">
+
+    <div class="section-heading">
+
+        <div>
+
+            <p class="section-number">
+                01 / SELECTED WORK
+            </p>
+
+            <h2>
+                Things I've built
+                <span>& designed.</span>
+            </h2>
+
+        </div>
+
+        <p>
+            A selection of development and design work spanning
+            software, web experiences and visual communication.
+        </p>
+
     </div>
-  </div>
+
+
+    <div class="projects-grid">
+
+
+        <!-- PROJECT 1 -->
+
+        <article class="project project-large">
+
+            <div class="project-image nursary">
+
+                <img
+                    src="images/gta.jpg"
+                    alt="GTA Fan Experience website"
+                >
+
+                <div class="project-overlay">
+
+                    <div class="project-label">
+                        PROJECT 01
+                    </div>
+
+                    <div class="project-title">
+                        GTA Fan<br>Experience
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="project-info">
+
+                <div>
+
+                    <p>WEB DESIGN · UI · DEVELOPMENT</p>
+
+                    <h3>
+                        GTA Fan Experience
+                    </h3>
+
+                    <span>
+                        A game-inspired web experience created to explore
+                        interface design, visual hierarchy and immersive
+                        digital presentation.
+                    </span>
+
+                </div>
+
+                <a href="#" class="project-link">
+                    View project ↗
+                </a>
+
+            </div>
+
+        </article>
+
+
+        <!-- PROJECT 2 -->
+
+        <article class="project">
+            <div class="project-image nursary">
+
+                <img
+                    src="images/nursary.jpg"
+                    alt="Nursary management system."
+                >
+
+                <div class="project-overlay">
+
+                    <div class="project-label">
+                        PROJECT 02
+                    </div>
+
+                    <div class="project-title">
+                        Plant & Nursery<br>Management
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="project-info">
+
+                <div>
+
+                    <p>
+                        SOFTWARE DEVELOPMENT · ASP.NET MVC · DATABASE
+                    </p>
+
+                    <h3>
+                        Plant & Nursery Management System
+                    </h3>
+
+                    <span>
+                        A management system designed to organise
+                        nursery operations across products, customers,
+                        staff, sales and inventory.
+                    </span>
+
+                </div>
+
+                <a href="#" class="project-link">
+                    View project ↗
+                </a>
+
+            </div>
+
+        </article>
+
+
+        <!-- PROJECT 3 -->
+
+        <!--<article class="project">
+
+            <div class="project-image project-placeholder">
+
+                <div class="project-label">
+                    PROJECT 03
+                </div>
+
+                <div class="project-title">
+                    Case Study<br>Coming Soon
+                </div>
+
+            </div>
+
+            <div class="project-info">
+
+                <div>
+
+                    <p>
+                        DEVELOPMENT · SYSTEMS
+                    </p>
+
+                    <h3>
+                        University Project
+                    </h3>
+
+                    <span>
+                        Project details will be added once the
+                        project is identified and documented.
+                    </span>
+
+                </div>
+
+                <a href="#" class="project-link">
+                    Details ↗
+                </a>
+
+            </div>
+
+        </article> -->
+
+
+        <!-- PROJECT 4 -->
+
+        <article class="project">
+            <div class="project-image nursary">
+
+                <img
+                    src="images/otm.png"
+                    alt="OTM webapp"
+                >
+
+                <div class="project-overlay">
+
+                    <div class="project-label">
+                        PROJECT 03
+                    </div>
+
+                    <div class="project-title">
+                        OTM<br>Party
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="project-info">
+
+                <div>
+
+                    <p>
+                        WEB DESIGN · UI/UX · PERSONAL PROJECT
+                    </p>
+
+                    <h3>
+                        OTM Party
+                    </h3>
+
+                    <span>
+                        A personal event website concept exploring
+                        how an event can be presented through a
+                        dedicated digital experience.
+                    </span>
+
+                </div>
+
+                <a href="#" class="project-link">
+                    In development ↗
+                </a>
+
+            </div>
+
+        </article>
+
+
+        <!-- DESIGN COLLECTION -->
+
+        <!--<article class="project project-large">
+
+            <div class="project-image designs">
+
+                <div class="project-label">
+                    DESIGN COLLECTION
+                </div>
+
+                <div class="design-gallery">
+
+                    <img src="images/design-01.jpg" alt="Brian Nkuna graphic design">
+
+                    <img src="images/design-02.jpg" alt="Brian Nkuna graphic design">
+
+                    <img src="images/design-03.jpg" alt="Brian Nkuna graphic design">
+
+                    <img src="images/design-04.jpg" alt="Brian Nkuna graphic design">
+
+                </div>
+
+            </div>
+
+            <div class="project-info">
+
+                <div>
+
+                    <p>
+                        GRAPHIC DESIGN · CANVA · VISUAL DESIGN
+                    </p>
+
+                    <h3>
+                        Visual Design Collection
+                    </h3>
+
+                    <span>
+                        A collection of graphic and digital design
+                        work covering visual concepts, layouts and
+                        promotional content.
+                    </span>
+
+                </div>
+
+                <a href="#" class="project-link">
+                    View designs ↗
+                </a>
+
+            </div>
+
+        </article>-->
+
+    </div>
+
 </section>
+
+
+<!-- ================= SERVICES ================= -->
+
+<section class="section services-section" id="services">
+
+    <div class="section-heading">
+
+        <div>
+
+            <p class="section-number">
+                02 / WHAT I DO
+            </p>
+
+            <h2>
+                From idea
+                <span>to execution.</span>
+            </h2>
+
+        </div>
+
+        <p>
+            I combine technical and creative thinking to design,
+            build and refine digital solutions.
+        </p>
+
+    </div>
+
+
+    <div class="services-list">
+
+
+        <div class="service">
+
+            <div class="service-number">
+                01
+            </div>
+
+            <div>
+                <h3>
+                    Software Development
+                </h3>
+
+                <p>
+                    Building practical software solutions with
+                    structured programming, databases and
+                    application logic.
+                </p>
+            </div>
+
+            <strong>
+                C# · Java · ASP.NET MVC
+            </strong>
+
+        </div>
+
+
+        <div class="service">
+
+            <div class="service-number">
+                02
+            </div>
+
+            <div>
+                <h3>
+                    Web Development
+                </h3>
+
+                <p>
+                    Designing and developing responsive web
+                    experiences focused on usability, clarity
+                    and performance.
+                </p>
+            </div>
+
+            <strong>
+                HTML · CSS · JavaScript
+            </strong>
+
+        </div>
+
+
+        <div class="service">
+
+            <div class="service-number">
+                03
+            </div>
+
+            <div>
+                <h3>
+                    UI/UX Design
+                </h3>
+
+                <p>
+                    Creating interfaces and user experiences
+                    that balance visual appeal with intuitive
+                    interaction.
+                </p>
+            </div>
+
+            <strong>
+                Figma · Wireframes · Prototyping
+            </strong>
+
+        </div>
+
+
+        <div class="service">
+
+            <div class="service-number">
+                04
+            </div>
+
+            <div>
+                <h3>
+                    Graphic Design
+                </h3>
+
+                <p>
+                    Creating visual assets and digital
+                    communication that give ideas a clear
+                    and consistent identity.
+                </p>
+            </div>
+
+            <strong>
+                Canva · Visual Design · Branding
+            </strong>
+
+        </div>
+
+
+        <div class="service">
+
+            <div class="service-number">
+                05
+            </div>
+
+            <div>
+                <h3>
+                    Digital Solutions
+                </h3>
+
+                <p>
+                    Turning information and everyday problems
+                    into practical digital tools and systems.
+                </p>
+            </div>
+
+            <strong>
+                Excel · MySQL · MS Access
+            </strong>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= ABOUT ================= -->
+
+<section class="about-section" id="about">
+
+    <div class="about-heading">
+
+        <p class="section-number">
+            03 / ABOUT
+        </p>
+
+        <h2>
+            More than a
+            <span>job title.</span>
+        </h2>
+
+        <!-- PHOTO PLACEHOLDER -->
+        <div class="profile-photo">
+
+            <img
+                src="images/brian.jpg"
+                alt="Brian Nkuna"
+                class="profile-image"
+            >
+
+        </div>
+
+    </div>
+
+
+    <div class="about-content">
+
+        <p class="about-lead">
+            I'm Brian Nkuna — an IT professional working
+            at the intersection of technology, design and business.
+        </p>
+
+        <p>
+            I enjoy taking ideas that are unclear, complicated
+            or purely conceptual and turning them into something
+            people can actually use.
+        </p>
+
+        <p>
+            My work spans software development, web development,
+            UI/UX design, graphic design and practical digital
+            solutions.
+        </p>
+
+        <p>
+            That combination allows me to approach a project from
+            different angles — understanding the problem, designing
+            the experience, building the solution and refining
+            the details.
+        </p>
+
+        <p>
+            I'm particularly interested in work where technology
+            and creativity meet: digital products, websites,
+            software, interfaces, visual communication and
+            business ideas that can be turned into something real.
+        </p>
+
+        <a href="#contact" class="text-link">
+            Start a conversation ↗
+        </a>
+
+    </div>
+
+</section>
+
+
+<!-- ================= SKILLS ================= -->
+
+<section class="section skills-section">
+
+    <div class="section-heading">
+
+        <div>
+
+            <p class="section-number">
+                04 / TOOLKIT
+            </p>
+
+            <h2>
+                Tools I
+                <span>work with.</span>
+            </h2>
+
+        </div>
+
+    </div>
+
+
+    <div class="skills-cloud">
+
+        <span>C#</span>
+        <span>Java</span>
+        <span>JavaScript</span>
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>ASP.NET MVC</span>
+        <span>MySQL</span>
+        <span>MS Access</span>
+        <span>Excel</span>
+        <span>Google Sheets</span>
+        <span>Figma</span>
+        <span>Canva</span>
+        <span>Visual Studio</span>
+        <span>IntelliJ IDEA</span>
+        <span>Visio</span>
+        <span>Microsoft Office</span>
+
+    </div>
+
+</section>
+
+
+<!-- ================= BACKGROUND ================= -->
+
+<section class="section background-section">
+
+    <div class="section-heading">
+
+        <div>
+
+            <p class="section-number">
+                05 / BACKGROUND
+            </p>
+
+            <h2>
+                Experience &
+                <span>background.</span>
+            </h2>
+
+        </div>
+
+    </div>
+
+
+    <div class="background-grid">
+
+        <div class="background-card">
+
+            <small>
+                EDUCATION
+            </small>
+
+            <h3>
+                Bachelor's Degree
+            </h3>
+
+            <p>
+                2022
+            </p>
+
+        </div>
+
+
+        <div class="background-card">
+
+            <small>
+                UNIVERSITY
+            </small>
+
+            <h3>
+                Nelson Mandela University
+            </h3>
+
+            <p>
+                Academic background in computing and
+                information systems.
+            </p>
+
+        </div>
+
+
+        <div class="background-card">
+
+            <small>
+                PROFESSIONAL PROFILE
+            </small>
+
+            <h3>
+                Multidisciplinary
+            </h3>
+
+            <p>
+                Technology · Design · Business ·
+                Digital Solutions
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <a href="#" class="cv-button">
+        Download CV ↗
+    </a>
+
+</section>
+
+
+<!-- ================= CONTACT ================= -->
+
+<section class="contact-section" id="contact">
+
+    <p class="section-number">
+        06 / CONTACT
+    </p>
+
+    <h2>
+        Have an idea?
+        <span>Let's build it.</span>
+    </h2>
+
+    <p class="contact-description">
+        Tell me what you're working on, what you need,
+        or simply tell me about your idea.
+    </p>
+
+
+    <!-- WHATSAPP CONTACT FORM -->
+
+    <form class="whatsapp-form" id="whatsappForm">
+
+        <div class="form-row">
+
+            <div class="form-group">
+
+                <label for="name">
+                    Your name
+                </label>
+
+                <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    placeholder="John Doe"
+                    required
+                >
+
+            </div>
+
+
+            <div class="form-group">
+
+                <label for="email">
+                    Email
+                </label>
+
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="john@example.com"
+                    required
+                >
+
+            </div>
+
+        </div>
+
+
+        <div class="form-group">
+
+            <label for="service">
+                What can I help you with?
+            </label>
+
+            <select id="service" name="service" required>
+
+                <option value="" disabled selected>
+                    Select a service
+                </option>
+
+                <option value="Software Development">
+                    Software Development
+                </option>
+
+                <option value="Web Development">
+                    Web Development
+                </option>
+
+                <option value="UI/UX Design">
+                    UI/UX Design
+                </option>
+
+                <option value="Graphic Design">
+                    Graphic Design
+                </option>
+
+                <option value="Digital Solution">
+                    Digital Solution
+                </option>
+
+                <option value="Other">
+                    Other
+                </option>
+
+            </select>
+
+        </div>
+
+
+        <div class="form-group">
+
+            <label for="message">
+                Tell me about your project
+            </label>
+
+            <textarea
+                id="message"
+                name="message"
+                rows="6"
+                placeholder="Tell me about your project, idea, requirements or what you'd like to discuss..."
+                required
+            ></textarea>
+
+        </div>
+
+
+        <button
+            type="submit"
+            class="whatsapp-button"
+        >
+            Send via WhatsApp ↗
+        </button>
+
+    </form>
+
+
+    <div class="contact-divider">
+        <span>OR</span>
+    </div>
+
+
+    <a
+        href="mailto:nkunamphobrian@gmail.com"
+        class="email"
+    >
+        hello@briankuna.co.za ↗
+    </a>
+
+
+    <div class="social-links">
+
+        <a href="#" target="_blank">
+            LinkedIn ↗
+        </a>
+
+        <a href="#" target="_blank">
+            GitHub ↗
+        </a>
+
+        <a href="#">
+            Download CV ↗
+        </a>
+
+    </div>
+
+</section>
+
+</main>
+
+
+<!-- ================= FOOTER ================= -->
 
 <footer>
-  <div class="container">© 2026 Nkuna Mpho Brian. Built from Limpopo, South Africa.</div>
+
+    <span>
+        © 2026 Brian Nkuna
+    </span>
+
+    <span>
+        Technology · Design · Digital Solutions
+    </span>
+
+    <a href="#home">
+        Back to top ↑
+    </a>
+
 </footer>
 
-<script src="script.js"></script>
+
+<script>
+
+    /* =========================
+       MOBILE MENU
+       ========================= */
+
+    const menuButton =
+        document.getElementById("menuButton");
+
+    const mobileMenu =
+        document.getElementById("mobileMenu");
+
+
+    menuButton.addEventListener("click", () => {
+
+        mobileMenu.classList.toggle("active");
+
+    });
+
+
+    document
+        .querySelectorAll(".mobile-menu a")
+        .forEach(link => {
+
+            link.addEventListener("click", () => {
+
+                mobileMenu.classList.remove("active");
+
+            });
+
+        });
+
+
+    /* =========================
+       WHATSAPP FORM
+       ========================= */
+
+    const whatsappForm =
+        document.getElementById("whatsappForm");
+
+
+    whatsappForm.addEventListener("submit", function(event) {
+
+        event.preventDefault();
+
+
+        const whatsappNumber =
+            "YOUR_WHATSAPP_NUMBER";
+
+
+        const name =
+            document.getElementById("name").value.trim();
+
+        const email =
+            document.getElementById("email").value.trim();
+
+        const service =
+            document.getElementById("service").value;
+
+        const message =
+            document.getElementById("message").value.trim();
+
+
+        const whatsappMessage =
+`Hello Brian,
+
+My name is ${name}.
+
+Email: ${email}
+
+I'm interested in:
+${service}
+
+Project / enquiry:
+${message}
+
+I found you through your portfolio website.`;
+
+
+        const whatsappURL =
+            "https://wa.me/27658781969" +
+            whatsappNumber +
+            "?text=" +
+            encodeURIComponent(whatsappMessage);
+
+
+        window.open(
+            whatsappURL,
+            "_blank"
+        );
+
+    });
+
+</script>
+
 </body>
 </html>
